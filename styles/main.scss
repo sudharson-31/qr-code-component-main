@@ -8,22 +8,23 @@ html{
 body{
     display: flex;
     justify-content: center;
-    padding-top: 60px;
+   
 }
 .main-box{
+    z-index: 1;
     margin-top: 3%;
     display:flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
-    height: 500px;
+    width: 350px;
+    height: 550px;
     background-color:  hsl(0, 0%, 100%);
     border-radius: 20px;
     .qr{
         .qr-img{
             display: inline-block;
             justify-content: space-evenly;
-            width: 275px;
+            width: 325px;
             border-radius: 10px;
         }
         padding: 15px 20px;
@@ -41,13 +42,21 @@ body{
        }
     .main-d{
         display: inline-block;
-        padding-right : 20px;
-        padding-left: 20px;
+        padding-right : 25px;
+        padding-left: 25px;
         text-align: center;
         font-family: $font-light;
-        font-weight: 300;
+        font-weight: 400;
         color: hsl(220, 15%, 55%);
     }
    
+}
+.footer{
+    position: absolute;
+    z-index: 0;
+    margin: 40%;
+    font-family: $font-light;
+    font-weight: 300;
+    color:hsl(220, 15%, 55%);
 }
 

@@ -8,16 +8,16 @@ html {
 body {
   display: flex;
   justify-content: center;
-  padding-top: 60px;
 }
 
 .main-box {
+  z-index: 1;
   margin-top: 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 300px;
-  height: 500px;
+  width: 350px;
+  height: 550px;
   background-color: white;
   border-radius: 20px;
 }
@@ -27,7 +27,7 @@ body {
 .main-box .qr .qr-img {
   display: inline-block;
   justify-content: space-evenly;
-  width: 275px;
+  width: 325px;
   border-radius: 10px;
 }
 .main-box .main-c {
@@ -42,9 +42,18 @@ body {
 }
 .main-box .main-d {
   display: inline-block;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
   text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: #7b879d;
+}
+
+.footer {
+  position: absolute;
+  z-index: 0;
+  margin: 40%;
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   color: #7b879d;
