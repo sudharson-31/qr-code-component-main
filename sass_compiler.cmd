@@ -1,0 +1,1 @@
+sass S:\REFERNCES\qr-code-component-main\styles\main.scss S:\REFERNCES\qr-code-component-main\styles\main.css
