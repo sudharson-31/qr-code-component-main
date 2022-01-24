@@ -8,7 +8,7 @@ html {
 body {
   display: flex;
   justify-content: center;
-  padding-top: 25px;
+  padding-top: 40px;
 }
 
 .main-box {
@@ -16,8 +16,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 280px;
-  height: 450px;
+  width: 300px;
+  height: 500px;
   background-color: white;
   border-radius: 20px;
 }
@@ -27,12 +27,13 @@ body {
 .main-box .qr .qr-img {
   display: inline-block;
   justify-content: space-evenly;
-  width: 250px;
+  width: 280px;
   border-radius: 10px;
 }
 .main-box .main-c {
   padding-right: 25px;
   padding-left: 25px;
+  padding-bottom: 10px;
   display: inline-block;
   font-family: "Outfit", sans-serif;
   font-weight: 700;
