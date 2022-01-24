@@ -8,7 +8,7 @@ html {
 body {
   display: flex;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 60px;
 }
 
 .main-box {
@@ -22,12 +22,12 @@ body {
   border-radius: 20px;
 }
 .main-box .qr {
-  padding: 15px 10px;
+  padding: 15px 20px;
 }
 .main-box .qr .qr-img {
   display: inline-block;
   justify-content: space-evenly;
-  width: 280px;
+  width: 275px;
   border-radius: 10px;
 }
 .main-box .main-c {
